@@ -1,0 +1,47 @@
+Listado de comandos utilizados:
+
+mkdir 20230605-DanielaLozano
+cd 20230605-DanielaLozano
+git init
+git add .
+git commit -m "commit 01 DanielaLozano creacion repositorio"
+git branch -M main
+git remote add origin https://github.com/Danielalvz/20230605-DanielaLozano.git
+git push -u origin main
+touch README.md
+git add .
+git commit -m "commit 01 DanielaLozano creacion repositorio"
+git push -u origin main
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 02 DanielaLozano se agregan archivos iniciales"
+git push
+git branch feature
+git branch
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+touch resumen.txt/Hardware resumen.txt/Software resumen.txt/SeguridadInformatica
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git status
+git add .
+git commit -m "commit 03 DanielaLozano se agregan archivos en carpetas rama feature"
+git push -u origin feature
+git checkout main
+mv 20230605-DanielaLozano/main.js 20230605-DanielaLozano/resumenHardware.txt
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+ls -R
+nano resumenSoftware.txt
+cat resumenSoftware.txt
+nano resumenSoftware.txt
+nano resumenHardware.txt
+cat resumenHardware.txt
+ls -R
+rmv README.md
+rm README.md
+ls -R
+history
+
+
+
+
